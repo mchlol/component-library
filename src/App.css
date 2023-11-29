@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+  --greyTxtCol: #1F2937;
+  --greyBgCol: #F3F4F6;
+  --redTxtCol: #991B1B;
+  --redBgCol: #FEE2E2;
+  --yellowTxtCol: #92400E;
+  --yellowBgCol: #FEF3C7;
+  --greenTxtCol: #065F46;
+  --greenBgCol: #D1FAE5;
+  --blueTxtCol: #1E40AF;
+  --blueBgCol: #DBEAFE;
+  --indigoTxtCol: #3730A3;
+  --indigoBgCol: #E0E7FF;
+  --purpleTxtCol: #5B21B6;
+  --purpleBgCol: #EDE9FE;
+  --pinkTxtCol: #9D174D;
+  --pinkBgCol: #FCE7F3;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.125rem 0.75rem;
+  border-radius: 0.25rem;
+  color: var(--greyTxtCol);
+  background-color: var(--greyBgCol);
+}
+
+.pill {
+  border-radius: 0.75rem;
+}
+
+.red {
+  color: var(--redTxtCol);
+  background-color: var(--redBgCol);
+}
+
+.yellow {
+  color: var(--yellowTxtCol);
+  background-color: var(--yellowBgCol);
+}
+
+.green {
+  color: var(--greenTxtCol);
+  background-color: var(--greenBgCol);
+}
+
+.blue {
+  color: var(--blueTxtCol);
+  background-color: var(--blueBgCol);
+}
+
+.indigo {
+  color: var(--indigoTxtCol);
+  background-color: var(--indigoBgCol);
+}
+
+.purple {
+  color: var(--purpleTxtCol);
+  background-color: var(--purpleBgCol);
+}
+
+.pink {
+  color: var(--pinkTxtCol);
+  background-color: var(--pinkBgCol);
+}
