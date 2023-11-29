@@ -14,7 +14,10 @@ export default function Banner({children, type}) {
     return (
         <BannerContext.Provider value={ {type}} >
             <div className={allClasses.join(' ')}>
-                {children}
+                <Banner.Icon />
+                <div>
+                    {children}
+                </div>
             </div>
         </BannerContext.Provider>
     )

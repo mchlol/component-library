@@ -10,13 +10,10 @@ function App() {
 
   return (
     <>
-      <Card>
-        <Card.Icon>
-          <HiOutlineCloudUpload />
-        </Card.Icon>
-        <Card.Header>Easy Deployment</Card.Header>
-        <Card.Text>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Text>
-      </Card>
+      <Banner type="warning">
+        <Banner.Heading>Hello</Banner.Heading>
+        <Banner.Text>Some text</Banner.Text>
+      </Banner>
     </>
   )
 }
