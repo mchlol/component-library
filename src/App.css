@@ -185,3 +185,18 @@ body {
   padding: 0;
   object-fit: scale-down;
 }
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .testimonial-logo {
+    align-items: flex-start;
+  }
+
+  .testimonial-info {
+    display: block;
+  }
+}
