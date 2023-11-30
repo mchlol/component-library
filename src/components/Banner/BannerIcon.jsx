@@ -7,8 +7,6 @@ export default function BannerIcon() {
 
     const { type } = React.useContext(BannerContext)
 
-    console.log('icon type: ',type)
-
     function getIcon(type) {
         if (type === 'success') {
             return <FaCircleCheck />

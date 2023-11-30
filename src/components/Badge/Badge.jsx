@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Badge( {children, ...rest} ) {
 
-    let allClasses = ['badge'];
+    let allClasses = ['badge', 'flex-center'];
     rest.shape && allClasses.push(rest.shape);
     rest.color && allClasses.push(rest.color);
 

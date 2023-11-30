@@ -5,11 +5,8 @@ export { BannerContext }
 
 export default function Banner({children, type}) {
 
-    let allClasses = ['banner'];
+    let allClasses = ['banner', 'flex-center'];
     type && allClasses.push(type);
-
-    console.log('banner type: ',type)
-    console.log(allClasses.join(' '))
 
     return (
         <BannerContext.Provider value={ {type}} >
