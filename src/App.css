@@ -45,7 +45,14 @@ body {
   opacity: 0.5;
 }
 
-/* component classes */
+/* presentation */
+
+section {
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+/* components */
 
 .badge {
   padding: 0.125rem 0.75rem;
@@ -93,6 +100,8 @@ body {
   background-color: var(--pinkBgCol);
 }
 
+/* banner */
+
 .banner {
   width: fit-content;
   padding: 1rem;
@@ -102,6 +111,10 @@ body {
   line-height: 1.25rem;
   color: #1E40AF;
   background-color: #EFF6FF;
+}
+
+.banner p {
+  max-width: 70ch;
 }
 
 .banner-icon {
@@ -122,6 +135,8 @@ body {
   color: var(--greenTxtCol);
   background-color: var(--greenBgCol);
 }
+
+/* card */
 
 .card {
   padding: 2rem 1.5rem 2rem 1.5rem;
