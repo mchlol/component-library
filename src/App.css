@@ -41,6 +41,12 @@ body {
   flex-direction: column;
 }
 
+.flex-wrap-gap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
 .opacity-5 {
   opacity: 0.5;
 }
@@ -49,7 +55,15 @@ body {
 
 section {
   max-width: fit-content;
-  margin: 0 auto;
+  margin: 1.5em auto;
+  background-color: white;
+  padding: 1.5em;
+}
+
+section hr {
+  border: none;
+  border-bottom: 3px dashed #ebebeb;
+  margin: 2em 0;
 }
 
 /* components */

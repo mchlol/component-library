@@ -1,9 +1,9 @@
 import React from "react";
-import Banner from "./Banner/Banner";
+import Banner from './Banner'
 
 export default function BannerSection() {
     return (
-<section className="section--banner">
+      <section className="section--banner">
         <h2>Banners</h2>
 
         <h3>Multiline</h3>
@@ -47,6 +47,8 @@ export default function BannerSection() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.
           </Banner.Text>
         </Banner>
+
+        <hr />
 
         <h3>Single line</h3>
         

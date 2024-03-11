@@ -1,14 +1,9 @@
 import React from 'react'
 import './App.css'
-import Badge from './components/Badge/Badge'
-import Banner from './components/Banner'
-import Card from './components/Card'
-import { HiOutlineCloudUpload } from "react-icons/hi";
-import Testimonial from './components/Testimonial'
-import { PiTreePalm } from "react-icons/pi";
-import TestimonialWithImage from './components/TestimonialWithImage/TestimonialWithImage'
-import Image from './assets/christina.jpg'
 import BannerSection from './components/BannerSection'
+import BadgeSection from './components/BadgeSection'
+import CardSection from './components/CardSection'
+
 
 function App() {
 
@@ -19,6 +14,8 @@ function App() {
       </header>
 
       <BannerSection/>
+      <BadgeSection />
+      <CardSection />
 
     </>
   )
