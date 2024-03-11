@@ -212,6 +212,7 @@ pre {
   flex-direction: column;
   gap: 2rem;
   flex: 1 0 0;
+  text-align: center;
 }
 
 .testimonial-logo {
@@ -226,6 +227,8 @@ pre {
 
 .testimonial-source {
   font-size: 0.8rem;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 /* testimonial with image */
