@@ -4,9 +4,15 @@ import Badge from "./Badge/Badge";
 export default function BadgeSection() {
     return (
     <section className="section--badge">
+
         <div className="section-content">
+
             <h2>Badges</h2>
+
+            <div className="flex-center column">
+
                 <h3>Square</h3>
+
                 <div className="flex-wrap-gap">
                     <Badge>Grey</Badge>
                     <Badge color="red">Red</Badge>
@@ -17,13 +23,19 @@ export default function BadgeSection() {
                     <Badge color="purple">purple</Badge>
                     <Badge color="pink">pink</Badge>
                 </div>
+
                 <pre>
                     <code>&lt;Badge color="pink"&gt;Text here&lt;/Badge&gt;</code>
                 </pre>
-            
-                <hr />
-            
+
+            </div>
+        
+            <hr />
+        
+            <div className="flex-center column">
+
                 <h3>Pill</h3>
+
                 <div className="flex-wrap-gap">
                     <Badge shape="pill">Grey</Badge>
                     <Badge color="red" shape="pill">Red</Badge>
@@ -34,9 +46,13 @@ export default function BadgeSection() {
                     <Badge color="purple" shape="pill">purple</Badge>
                     <Badge color="pink" shape="pill">pink</Badge>
                 </div>
+
                 <pre>
                     <code>&lt;Badge color="pink" shape="pill"&gt;Text here&lt;/Badge&gt;</code>
                 </pre>
+                
+            </div>
+
         </div>
 
       </section>

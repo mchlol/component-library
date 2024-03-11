@@ -3,6 +3,7 @@ import './App.css'
 import BannerSection from './components/BannerSection'
 import BadgeSection from './components/BadgeSection'
 import CardSection from './components/CardSection'
+import TestimonialSection from './components/TestimonialSection'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <BannerSection/>
       <BadgeSection />
       <CardSection />
+      <TestimonialSection />
 
     </>
   )

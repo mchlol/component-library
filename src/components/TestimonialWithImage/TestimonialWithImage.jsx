@@ -1,4 +1,6 @@
 import React from "react";
+import { BiSolidQuoteAltLeft } from "react-icons/bi";
+
 
 export default function TestimonialWithImage({imageSrc, imageAlt, children}) {
 
@@ -9,6 +11,7 @@ export default function TestimonialWithImage({imageSrc, imageAlt, children}) {
         >
             <img src={imageSrc} alt={imageAlt ? imageAlt : ''} />
             <div className="testimonial-text">
+                <BiSolidQuoteAltLeft className="quote-icon"/>
                 {children}
             </div>
         </div>
