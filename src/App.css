@@ -54,10 +54,15 @@ body {
 /* presentation */
 
 section {
-  max-width: fit-content;
+  max-width: 80%;
   margin: 1.5em auto;
   background-color: white;
   padding: 1.5em;
+}
+
+.section-content {
+  width: fit-content;
+  margin: 0 auto;
 }
 
 section hr {
@@ -66,7 +71,18 @@ section hr {
   margin: 2em 0;
 }
 
-/* components */
+pre {
+  min-width: 0px;
+  max-width: 800px;
+  background-color: #333;
+  padding: 1em;
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* ## components */
+
+/* badge */
 
 .badge {
   padding: 0.125rem 0.75rem;
@@ -213,21 +229,6 @@ section hr {
 }
 
 /* testimonial with image */
-
-
-/* .wrapper {
-  max-width: 800px;
-  padding: 50px 50px 50px 410px;
-  margin: 100px auto;
-}
-
-.image {
-  top: -10%;
-  left: 50px;
-  width: 320px;
-  height: 120%;
-  transform: translate(0);
-} */
 
 .testimonial-with-image-container {
   background-color: #2545B8;
