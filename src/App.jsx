@@ -1,23 +1,23 @@
 import React from 'react'
 import './App.css'
-import Badge from './components/Badge/Badge'
-import Banner from './components/Banner'
-import Card from './components/Card'
-import { HiOutlineCloudUpload } from "react-icons/hi";
-import Testimonial from './components/Testimonial'
-import { PiTreePalm } from "react-icons/pi";
-import TestimonialWithImage from './components/TestimonialWithImage/TestimonialWithImage'
-import Image from './assets/christina.jpg'
+import BannerSection from './components/BannerSection'
+import BadgeSection from './components/BadgeSection'
+import CardSection from './components/CardSection'
+import TestimonialSection from './components/TestimonialSection'
+
 
 function App() {
 
   return (
     <>
-      <TestimonialWithImage imageSrc={Image} imageAlt="a lady in blue">
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit."</p>
-      <p className="testimonial-source">May Andersons<br />
-      Workcation, CTO</p>
-      </TestimonialWithImage>
+      <header style={{textAlign: "center"}}>
+      <h1>Component Library++</h1>
+      </header>
+
+      <BannerSection/>
+      <BadgeSection />
+      <CardSection />
+      <TestimonialSection />
 
     </>
   )

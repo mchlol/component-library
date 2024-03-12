@@ -1,7 +1,7 @@
 import Testimonial from "./Testimonial";
 import TestimonialLogo from "./TestimonialLogo";
 import TestimonialText from "./TestimonialText";
-import TestimonialSource from "./TestimonialInfo";
+import TestimonialSource from "./TestimonialSource";
 
 Testimonial.Logo = TestimonialLogo;
 Testimonial.Text = TestimonialText;
