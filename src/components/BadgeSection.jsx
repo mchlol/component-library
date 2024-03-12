@@ -24,11 +24,12 @@ export default function BadgeSection() {
                     <Badge color="pink">pink</Badge>
                 </div>
 
+            </div>
+
+            <h3>Usage</h3>
                 <pre>
                     <code>&lt;Badge color="pink"&gt;Text here&lt;/Badge&gt;</code>
                 </pre>
-
-            </div>
         
             <hr />
         
@@ -46,12 +47,12 @@ export default function BadgeSection() {
                     <Badge color="purple" shape="pill">purple</Badge>
                     <Badge color="pink" shape="pill">pink</Badge>
                 </div>
-
-                <pre>
-                    <code>&lt;Badge color="pink" shape="pill"&gt;Text here&lt;/Badge&gt;</code>
-                </pre>
                 
             </div>
+
+            <pre>
+                    <code>&lt;Badge color="pink" shape="pill"&gt;Text here&lt;/Badge&gt;</code>
+                </pre>
 
         </div>
 

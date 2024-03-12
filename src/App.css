@@ -43,6 +43,7 @@ body {
 
 .flex-wrap-gap {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
 }
@@ -53,11 +54,17 @@ body {
 
 /* presentation */
 
+header,
 section {
+  background-color: #fff;
   max-width: 80%;
   margin: 1.5em auto;
-  background-color: white;
   padding: 1.5em;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .section-content {
@@ -75,6 +82,7 @@ section hr {
 pre {
   min-width: 0px;
   max-width: 800px;
+  overflow-x: scroll;
   background-color: #333;
   padding: 1em;
   color: #fff;
